@@ -1,7 +1,27 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ingredients, .steps{
+    border: 10px solid rgb(82, 56, 31);
+    display: inline-block;
+}
+
+
 ol, ul{
+    display: inline-block;
     background-color: bisque;
+    margin: 0;
+    padding: 20px;
 }
 
 h1, h2{
     font-style: italic;
+}
+
+img{
+    border: 10px solid black;
+    display: block;
+    margin: 0 auto;
 }
